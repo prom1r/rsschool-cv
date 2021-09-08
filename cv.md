@@ -37,17 +37,19 @@ ___
 
 ```javascript
 function  getMiddle(s) {
-let  num1;
-let  num2;
-if (s.length % 2 == 0) {
-num1 = s[(s.length / 2) - 1];
-num2 = s[s.length / 2];
-return  num1 + num2;
-} else {
-num1 = s[Math.floor(s.length / 2)];
-return  num1;
-};
-};
+  let  num1;
+  let  num2;
+  if (s.length % 2 == 0) {
+    num1 = s[(s.length / 2) - 1];
+    num2 = s[s.length / 2];
+
+    return  num1 + num2;
+  } else {
+    num1 = s[Math.floor(s.length / 2)];
+
+    return  num1;
+  }
+}
 ```
     
 
