@@ -1,0 +1,87 @@
+body {
+    background: url(pictures/rm.jpeg);
+    background-size: 80%;
+}
+
+.container {
+    height: auto;
+    margin: 3% 20% 3% 20%;
+    border-radius: 2%;
+    box-shadow: 0px 0px 0px 5px #000, 0px 0px 0px 10px #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    height: 75%;
+}
+
+.sectionleft {
+    width: 40%;
+}
+
+.sectionright {
+    width: 60%;
+}
+
+.avatar {
+    width: 80%;
+    border-radius: 2%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.mynametext {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.webpicture {
+    width: 6%;
+    vertical-align: middle;
+}
+
+.generaltext {
+    margin: 1% 5% 3% 1%;
+    font-size: 1.5vw;
+}
+
+.imgcodewars {
+    width: 60%;
+    border-radius: 3%;
+    margin-left: 3%;
+}
+
+.sectiontext {
+    font-size: 1.5vw;
+    margin: 3% auto 1% 2%;
+    font-size: 2vw;
+}
+
+footer {
+    text-align: center;
+    height: auto;
+}
+
+.divflexfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgfooter {
+    width: 20%;
+}
+
+.textgeneralmargin {
+    margin-left: 6%;
+}
