@@ -1,1 +1,1 @@
-https://prom1r.github.io/rsschool-cv/cv
+https://prom1r.github.io/rsschool-cv
