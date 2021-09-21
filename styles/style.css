@@ -1,0 +1,481 @@
+                                    html {
+                                        scroll-behavior: smooth;
+                                    }
+                                    
+                                    .burger {
+                                        display: none;
+                                    }
+                                    
+                                    .burgerclass {
+                                        display: none;
+                                    }
+                                    
+                                    .menu {
+                                        list-style-type: none;
+                                        margin-left: 20px;
+                                        padding: 0;
+                                    }
+                                    
+                                    .menu li {
+                                        display: inline;
+                                    }
+                                    
+                                    .menu a {
+                                        text-decoration: none;
+                                        font-family: Arial, Helvetica, sans-serif;
+                                        color: white;
+                                        display: inline-block;
+                                        margin: 3% auto 3% 9%
+                                    }
+                                    
+                                    .menu {
+                                        padding-inline-start: 0;
+                                        margin-bottom: -20px;
+                                    }
+                                    
+                                    .container {
+                                        max-width: 900px;
+                                        background-color: #34343e;
+                                        margin: 0% auto;
+                                    }
+                                    
+                                    .flexbox {
+                                        display: flex;
+                                        flex-direction: row;
+                                    }
+                                    
+                                    .imagemy {
+                                        width: 90%;
+                                        display: block;
+                                        margin-left: auto;
+                                        margin-right: auto
+                                    }
+                                    
+                                    .section {
+                                        margin: 2% 0% 0% 0%;
+                                        height: auto;
+                                    }
+                                    
+                                    .sectionleft {
+                                        width: 70%;
+                                        background-color: #ffffff;
+                                        height: auto;
+                                        margin-left: 2%;
+                                    }
+                                    
+                                    .sectionright {
+                                        width: 30%;
+                                        padding-left: 2%;
+                                        margin-right: 1%;
+                                    }
+                                    
+                                    .sectionrightimage {
+                                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                        text-align: center;
+                                        color: white;
+                                        border: none;
+                                    }
+                                    
+                                    .heading>p {
+                                        height: 50px;
+                                        background-color: #ff9d90;
+                                        text-align: center;
+                                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        margin-top: 0%;
+                                        padding-top: 1%;
+                                        font-size: 30px;
+                                    }
+                                    
+                                    .iconstyle {
+                                        width: 14%;
+                                        margin-left: 2%;
+                                        margin-top: 5%;
+                                    }
+                                    
+                                    .list {
+                                        margin-top: 6%;
+                                        margin-left: 5%;
+                                        display: flex;
+                                        flex-direction: row;
+                                        font-size: 12pt;
+                                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                    }
+                                    
+                                    .generaltext {
+                                        font-size: 15pt;
+                                        font-family: serif;
+                                        text-align: left;
+                                        margin-left: 3%;
+                                        margin-right: 3%;
+                                    }
+                                    
+                                    .iconprogrammerflex {
+                                        display: flex;
+                                    }
+                                    
+                                    .imgicon1 {
+                                        width: 17%;
+                                        margin-left: 8%;
+                                    }
+                                    
+                                    .imgicon {
+                                        width: 15%;
+                                    }
+                                    
+                                    .codewars {
+                                        width: 90%;
+                                        margin-left: 5%;
+                                    }
+                                    
+                                    .imgiconjs {
+                                        width: 18%;
+                                        margin-left: -1%;
+                                    }
+                                    
+                                    table {
+                                        color: white;
+                                        text-align: left;
+                                        font-family: Georgia, 'Times New Roman', Times, serif;
+                                        font-size: 15px;
+                                    }
+                                    
+                                    .textcontact {
+                                        font-size: 15pt;
+                                        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                                        text-align: center;
+                                        color: white;
+                                    }
+                                    
+                                    .skills {
+                                        text-align: right;
+                                        padding-right: 10px;
+                                        line-height: 30px;
+                                        color: white;
+                                        margin-left: 3%;
+                                        height: 40px;
+                                    }
+                                    
+                                    .js {
+                                        width: 30%;
+                                        background-color: #d8b93f;
+                                        margin-top: 5%;
+                                        margin-left: 0;
+                                    }
+                                    
+                                    .html {
+                                        width: 60%;
+                                        background-color: #e94e37;
+                                        margin-top: 10%;
+                                    }
+                                    
+                                    .css {
+                                        width: 40%;
+                                        background-color: #0073b8;
+                                        margin-top: 7%;
+                                    }
+                                    
+                                    .git {
+                                        width: 20%;
+                                        background-color: #f6472a;
+                                    }
+                                    
+                                    .github {
+                                        width: 50%;
+                                        background-color: #888888;
+                                        margin-top: 4%;
+                                    }
+                                    
+                                    footer {
+                                        text-align: left;
+                                        height: auto;
+                                        margin-top: 1%;
+                                    }
+                                    
+                                    .divfooter {
+                                        background-color: #34343e;
+                                        padding-bottom: 2%;
+                                    }
+                                    
+                                    .iconstylefooter1 {
+                                        width: 10%;
+                                        filter: invert(95%) sepia(79%) saturate(3%) hue-rotate(145deg) brightness(106%) contrast(100%);
+                                        margin-left: 15%;
+                                    }
+                                    
+                                    .iconstylefooter2 {
+                                        width: 4%;
+                                        filter: invert(95%) sepia(79%) saturate(3%) hue-rotate(145deg) brightness(106%) contrast(100%);
+                                        margin-left: 10%;
+                                    }
+                                    
+                                    .spanfooter {
+                                        font-size: 20px;
+                                        color: white;
+                                        margin-left: 8%;
+                                    }
+                                    
+                                    @media screen and (max-width: 991px) {
+                                        .container {
+                                            width: 720px;
+                                        }
+                                        .menu a {
+                                            font-size: 13px;
+                                            margin-left: 8%;
+                                        }
+                                        table {
+                                            font-size: 13px;
+                                        }
+                                        .sectionright {
+                                            margin-right: 1%;
+                                        }
+                                        .iconstyle {
+                                            width: 15%;
+                                            margin-left: 15%;
+                                        }
+                                        .imgicon2 {
+                                            width: 13%;
+                                            height: 13%;
+                                        }
+                                        .imgiconjs {
+                                            margin-left: -1%;
+                                            width: 15%;
+                                            height: 15%;
+                                        }
+                                        .skills {
+                                            margin-top: 20%;
+                                            height: 30px;
+                                        }
+                                        .imgicon1 {
+                                            width: 13%;
+                                            margin-left: 8%;
+                                        }
+                                        .js {
+                                            margin-top: 5%;
+                                        }
+                                        .html {
+                                            margin-top: 8%;
+                                        }
+                                        .css {
+                                            margin-top: 7%;
+                                        }
+                                        .git {
+                                            margin-top: 5%;
+                                        }
+                                        .github {
+                                            margin-top: 5%;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 720px) {
+                                        .container {
+                                            width: 580px;
+                                        }
+                                        .imgicon2 {
+                                            width: 13%;
+                                            height: 13%;
+                                        }
+                                        .imgiconjs {
+                                            margin-left: -1%;
+                                            width: 15%;
+                                            height: 15%;
+                                        }
+                                        .iconstylefooter1 {
+                                            margin-left: 10%;
+                                        }
+                                        .menu a {
+                                            font-size: 13px;
+                                            margin-left: 6%;
+                                        }
+                                        .code {
+                                            width: 90%;
+                                            font-size: 10px;
+                                        }
+                                        .sectionleft {
+                                            width: 60%;
+                                        }
+                                        .imgicon1 {
+                                            width: 15%;
+                                        }
+                                        .skills {
+                                            height: 20px;
+                                            font-size: 10pt;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 575px) {
+                                        .container {
+                                            width: 100%;
+                                        }
+                                        .imagemy {
+                                            margin-left: auto;
+                                            margin-right: auto;
+                                            margin-top: 5%;
+                                        }
+                                        .container {
+                                            width: 100%;
+                                        }
+                                        .flexbox {
+                                            display: flex;
+                                            flex-wrap: wrap-reverse;
+                                        }
+                                        .sectionright {
+                                            width: 70%;
+                                            margin: 0% auto;
+                                        }
+                                        .sectionleft {
+                                            width: 90%;
+                                            margin: 0% auto;
+                                            height: auto;
+                                        }
+                                        .iconstyle {
+                                            margin-left: 15%;
+                                        }
+                                        table {
+                                            font-size: 16px;
+                                            margin-bottom: 2%;
+                                        }
+                                        .imgicon1 {
+                                            width: 35%;
+                                            margin-left: 40%;
+                                        }
+                                        .imgiconcd {
+                                            width: 30%;
+                                            margin-left: 35%;
+                                        }
+                                        .imgicon2 {
+                                            width: 15%;
+                                            height: 15%;
+                                            margin-left: 2%;
+                                        }
+                                        .imgiconjs {
+                                            margin-left: -1%;
+                                            width: 20%;
+                                            height: 20%;
+                                        }
+                                        .code {
+                                            width: 100%;
+                                            font-size: 10px;
+                                        }
+                                        .spanfooter {
+                                            font-size: 15px;
+                                            margin-left: 28%;
+                                        }
+                                        .iconstylefooter2 {
+                                            margin-left: 28%;
+                                        }
+                                        footer {
+                                            padding-bottom: 3%;
+                                        }
+                                        .div-section {
+                                            width: 100%;
+                                        }
+                                        .divicon {
+                                            display: flex;
+                                            flex-direction: row;
+                                            margin-left: 1%;
+                                        }
+                                        .skillsul {
+                                            padding-inline-start: 0%;
+                                        }
+                                        .skills {
+                                            height: 20px;
+                                        }
+                                        .menu {
+                                            display: none;
+                                        }
+                                        .burgeron {
+                                            display: block;
+                                            width: 50px;
+                                            height: 50px;
+                                            cursor: pointer;
+                                            background: url(../pictures/menu.svg) no-repeat center;
+                                            margin-left: 18px;
+                                            margin-top: 5px;
+                                            padding-bottom: 5%;
+                                            background-size: contain;
+                                            transition: .2s all linear;
+                                            filter: invert(95%) sepia(79%) saturate(3%) hue-rotate(145deg) brightness(106%) contrast(100%);
+                                        }
+                                        .burgeroff {
+                                            background: url(../pictures/cancel.svg) no-repeat center;
+                                            background-size: contain;
+                                            width: 45px;
+                                            height: 45px;
+                                        }
+                                        .div-menu {
+                                            display: none;
+                                        }
+                                        .div-menu-off {
+                                            animation: menushow .2s cubic-bezier(0, 0, 0.04, 1.29);
+                                            display: block;
+                                        }
+                                        @keyframes menushow {
+                                            0% {
+                                                transform: translateY(-60px);
+                                                opacity: 0;
+                                            }
+                                            100% {
+                                                transform: translateY(10px);
+                                                opacity: 1;
+                                            }
+                                        }
+                                        .burgerclass {
+                                            display: block;
+                                            width: 320px;
+                                            height: 40px;
+                                            color: black;
+                                            margin-top: 0;
+                                            text-align: left;
+                                            font-size: 15pt;
+                                            text-decoration: none;
+                                            margin-left: 5%;
+                                            background-color: white;
+                                            border-top: 2px solid cadetblue;
+                                        }
+                                        .burgerclass>p {
+                                            font-size: 25px;
+                                            margin-top: 2%;
+                                            margin-left: 2%;
+                                            font-family: Arial, Helvetica, sans-serif;
+                                        }
+                                        a:hover {
+                                            text-decoration: none;
+                                            color: black;
+                                            background: skyblue;
+                                        }
+                                        nav {
+                                            position: absolute;
+                                        }
+                                        .js {
+                                            margin-top: 5%;
+                                        }
+                                        .html {
+                                            margin-top: 8%;
+                                        }
+                                        .css {
+                                            margin-top: 7%;
+                                        }
+                                        .git {
+                                            margin-top: 5%;
+                                        }
+                                        .github {
+                                            margin-top: 5%;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 320px) {
+                                        .container {
+                                            width: 100%;
+                                        }
+                                        .burgerclass {
+                                            height: 30px;
+                                            width: 200px;
+                                        }
+                                        .burgerclass>p {
+                                            font-size: 10pt;
+                                        }
+                                        .burgeron {
+                                            width: 40px;
+                                            height: 40px;
+                                        }
+                                    }
